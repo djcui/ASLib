@@ -11,6 +11,8 @@
 		0D4BEBEEFC7123299BD0B4DD094383B1 /* Pods-ASLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BBAEC8B0EFB637C4DF954194A4757C /* Pods-ASLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22FB0A761D5219EB003358FC /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB0A741D5219EB003358FC /* test.h */; };
 		22FB0A771D5219EB003358FC /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB0A751D5219EB003358FC /* test.m */; };
+		22FB0AA91D522128003358FC /* GCDAsyncSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB0AA71D522128003358FC /* GCDAsyncSocketManager.h */; };
+		22FB0AAA1D522128003358FC /* GCDAsyncSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB0AA81D522128003358FC /* GCDAsyncSocketManager.m */; };
 		2389076819D8C160A5A6DB45CE42C4A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D496FB53E280030B310506E3777C9A /* Foundation.framework */; };
 		42872F28323D2C05DD8F0B758A00BDC9 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */; };
 		433EF85441EAE85E49AC9D455F2445AE /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -61,6 +63,8 @@
 		1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		22FB0A741D5219EB003358FC /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		22FB0A751D5219EB003358FC /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		22FB0AA71D522128003358FC /* GCDAsyncSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocketManager.h; sourceTree = "<group>"; };
+		22FB0AA81D522128003358FC /* GCDAsyncSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocketManager.m; sourceTree = "<group>"; };
 		2990DB83D5B55B70E73EE9B8F329F94F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DED4BB7E88398C7C34B0995EB082FE6 /* Pods-ASLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASLib_Example-dummy.m"; sourceTree = "<group>"; };
 		2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 			children = (
 				22FB0A741D5219EB003358FC /* test.h */,
 				22FB0A751D5219EB003358FC /* test.m */,
+				22FB0AA71D522128003358FC /* GCDAsyncSocketManager.h */,
+				22FB0AA81D522128003358FC /* GCDAsyncSocketManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -355,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FB0A761D5219EB003358FC /* test.h in Headers */,
+				22FB0AA91D522128003358FC /* GCDAsyncSocketManager.h in Headers */,
 				68940BA44B8DECB16CD1C3E0443ECD51 /* ASLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD11FE4DC5D65F68D21AA29646263906 /* ASLib-dummy.m in Sources */,
+				22FB0AAA1D522128003358FC /* GCDAsyncSocketManager.m in Sources */,
 				22FB0A771D5219EB003358FC /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

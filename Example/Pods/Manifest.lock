@@ -1,0 +1,21 @@
+PODS:
+  - ASLib (0.1.0):
+    - CocoaAsyncSocket
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+
+DEPENDENCIES:
+  - ASLib (from `../`)
+
+EXTERNAL SOURCES:
+  ASLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASLib: ed404a2e74188b96bb4c9a9a6a8d56a988c8042d
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+
+PODFILE CHECKSUM: 34be99032a6391f8e3211743d33b049aa6a433ce
+
+COCOAPODS: 1.0.1

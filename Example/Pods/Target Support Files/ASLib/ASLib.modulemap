@@ -1,0 +1,6 @@
+framework module ASLib {
+  umbrella header "ASLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

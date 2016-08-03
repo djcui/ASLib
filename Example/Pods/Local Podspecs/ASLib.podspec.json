@@ -1,0 +1,27 @@
+{
+  "name": "ASLib",
+  "version": "0.1.0",
+  "summary": "A short description of ASLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/djcui/ASLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cuijianpeng": "cuijianpeng@jodogame.com"
+  },
+  "source": {
+    "git": "https://github.com/djcui/ASLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASLib/Classes/**/*",
+  "dependencies": {
+    "CocoaAsyncSocket": [
+      ">=0"
+    ]
+  }
+}

@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FF1B68B07C563510813C07A9AFA4FB /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0D4BEBEEFC7123299BD0B4DD094383B1 /* Pods-ASLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BBAEC8B0EFB637C4DF954194A4757C /* Pods-ASLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22FB0A761D5219EB003358FC /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB0A741D5219EB003358FC /* test.h */; };
+		22FB0A771D5219EB003358FC /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB0A751D5219EB003358FC /* test.m */; };
+		2389076819D8C160A5A6DB45CE42C4A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D496FB53E280030B310506E3777C9A /* Foundation.framework */; };
+		42872F28323D2C05DD8F0B758A00BDC9 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */; };
+		433EF85441EAE85E49AC9D455F2445AE /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57A87D95A168033CDDD4583D9A859695 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6777BF56881321622FFD5EA738597693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D496FB53E280030B310506E3777C9A /* Foundation.framework */; };
+		68940BA44B8DECB16CD1C3E0443ECD51 /* ASLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3408E9CF879B244316987802BDD39D8D /* ASLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E06B4251B060D28D9B52BA757CBDCCC /* Pods-ASLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3E50C65666E8A01762A6FF5FFEEA9B /* Pods-ASLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E636ED5B36EB07AED4ECC02BCD75E30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7790C102DCFE268B7488B0F5234BC0 /* Security.framework */; };
+		76A4D6F572242121C1177305509150AC /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E03A82D8FFB943F03A67B2A1DA137B /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E6AD46DF2FEE0EC9E35D6864AF0B703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D496FB53E280030B310506E3777C9A /* Foundation.framework */; };
+		9F236FFC19B904AE3CB6E549D64B37CE /* Pods-ASLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F380337EE37944C93E8107FD77AAE4 /* Pods-ASLib_Tests-dummy.m */; };
+		A9234D1AE8E06F05F5C0EAC08CB7EA37 /* Pods-ASLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DED4BB7E88398C7C34B0995EB082FE6 /* Pods-ASLib_Example-dummy.m */; };
+		B4990BC060BEFF5166B73175641D0EEB /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */; };
+		BFE9205583C843B7CC193103E21A4F1F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4578FFC352D4C1E0A6835D910A54EA8A /* CFNetwork.framework */; };
+		DD11FE4DC5D65F68D21AA29646263906 /* ASLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D08219338D78FAA6697FEB0B09FF8405 /* ASLib-dummy.m */; };
+		E82D47FFC0BA557CDF5CA2E5170866D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D496FB53E280030B310506E3777C9A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		170BC621AD28157F4A6F0B30E2F3D83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE08C8FB83499E6273808C231170542A;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		49D0819A42BF636493A00B850045BB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE08C8FB83499E6273808C231170542A;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		ACCC7B7437DB341ACFFED0D447560A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DC2F3DF172067469E3AB7DD8699CD5;
+			remoteInfo = ASLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		11F00D8C079C6E9C85DE1591A7B2C762 /* ASLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187BE61E3A35995F9779FE9D64A8DD1A /* Pods-ASLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		22FB0A741D5219EB003358FC /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		22FB0A751D5219EB003358FC /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		2990DB83D5B55B70E73EE9B8F329F94F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DED4BB7E88398C7C34B0995EB082FE6 /* Pods-ASLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASLib_Example-dummy.m"; sourceTree = "<group>"; };
+		2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		30F380337EE37944C93E8107FD77AAE4 /* Pods-ASLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		3408E9CF879B244316987802BDD39D8D /* ASLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLib-umbrella.h"; sourceTree = "<group>"; };
+		38AAE734EC59709399F907E069880E91 /* ASLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLib.xcconfig; sourceTree = "<group>"; };
+		4578FFC352D4C1E0A6835D910A54EA8A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		52D9399C3D05A76B12521383E53ACA40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54285A2B7A9D38BC16406695406F5058 /* Pods-ASLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLib_Example-resources.sh"; sourceTree = "<group>"; };
+		676263ABA1F637DCB635777ABF61BE45 /* ASLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ASLib.modulemap; sourceTree = "<group>"; };
+		6A579706CD1E02D30C2A7F870E6BE538 /* Pods_ASLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F9206B99E5B5423D6B61D755C011CC /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		78BBAEC8B0EFB637C4DF954194A4757C /* Pods-ASLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		80E03A6C55CBCA5AD62CEB0F04FE178D /* Pods-ASLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		86340A99F20BEC0D9E6F18F9080B8720 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		87BB8CDA7C7CCFA64CF756B81A27D16A /* ASLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLib-prefix.pch"; sourceTree = "<group>"; };
+		8897EF90B2D55946A61AD5A10C38B75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1F5A868FEA31A81963FC9ADEC9C2E8 /* Pods-ASLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C9D6A7EC1DD331627FEABC2A9188404 /* Pods-ASLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASLib_Example.modulemap"; sourceTree = "<group>"; };
+		8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		90373D3B90D037148F6390543A70E428 /* Pods-ASLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASLib_Tests.modulemap"; sourceTree = "<group>"; };
+		91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B03ACE9930A2A7CBF70BEBADF199B2 /* Pods_ASLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CA9F9FB3612306E5F9D1655AC78890 /* Pods-ASLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A72509DE3C7FDFC0CA0C359025A6D92A /* Pods-ASLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		ABA7AA88912F11B1CD9EF13EF98CE1C4 /* Pods-ASLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AC7790C102DCFE268B7488B0F5234BC0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		AEC392C7E8C3DF88B841C7A3F050DFDE /* Pods-ASLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2A08896F0F4C7F8E169949817B9937D /* Pods-ASLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C02299D899975630D466484A283A282A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08219338D78FAA6697FEB0B09FF8405 /* ASLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASLib-dummy.m"; sourceTree = "<group>"; };
+		D4421A3C97D9D29740E130BB8BF00D28 /* Pods-ASLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		E8549B955B11C244813DBE5CA0062FBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D496FB53E280030B310506E3777C9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FD6BD3F7EF94DE816EFDF8DC743BE024 /* Pods-ASLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF3E50C65666E8A01762A6FF5FFEEA9B /* Pods-ASLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		FFFF3CB343D3FF66A1C4F1D19305C5A4 /* Pods-ASLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DEA06E215FF7CC9B0E41489A9C1A0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE9205583C843B7CC193103E21A4F1F /* CFNetwork.framework in Frameworks */,
+				E82D47FFC0BA557CDF5CA2E5170866D3 /* Foundation.framework in Frameworks */,
+				6E636ED5B36EB07AED4ECC02BCD75E30 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A1667D1B1C19189032B0E2CDEC464A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2389076819D8C160A5A6DB45CE42C4A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A8DC58AA62980A50D00950A50C572C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6AD46DF2FEE0EC9E35D6864AF0B703 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19468AFA03F9914335CDC9FF49E13DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4990BC060BEFF5166B73175641D0EEB /* CocoaAsyncSocket.framework in Frameworks */,
+				6777BF56881321622FFD5EA738597693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC30DE3E400DD99E3239B31407975B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22FB0A741D5219EB003358FC /* test.h */,
+				22FB0A751D5219EB003358FC /* test.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0F839B591063845FF5253B9EBC1FC251 /* ASLib */ = {
+			isa = PBXGroup;
+			children = (
+				B92181B9DCBC6571952A11A6010697D1 /* ASLib */,
+				1B796484D0F77F2C9B41E408DC97C7EF /* Support Files */,
+			);
+			name = ASLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1B796484D0F77F2C9B41E408DC97C7EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				676263ABA1F637DCB635777ABF61BE45 /* ASLib.modulemap */,
+				38AAE734EC59709399F907E069880E91 /* ASLib.xcconfig */,
+				D08219338D78FAA6697FEB0B09FF8405 /* ASLib-dummy.m */,
+				87BB8CDA7C7CCFA64CF756B81A27D16A /* ASLib-prefix.pch */,
+				3408E9CF879B244316987802BDD39D8D /* ASLib-umbrella.h */,
+				2990DB83D5B55B70E73EE9B8F329F94F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASLib";
+			sourceTree = "<group>";
+		};
+		3750E20CAB4987ACB8AB27B6C25C1D60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B16CCCC916CD9D13BBF53EA0C69C4615 /* CocoaAsyncSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FE60B79AB481C6EBAEB1B1293D2F1CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D55CBA63E7A366CB73C500BF064389A8 /* Pods-ASLib_Example */,
+				7886FEB8697A7A4D0E7F3DE77D32DFAD /* Pods-ASLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41FF34FCF632056459CD4804DE7E25E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F00D8C079C6E9C85DE1591A7B2C762 /* ASLib.framework */,
+				C02299D899975630D466484A283A282A /* CocoaAsyncSocket.framework */,
+				97B03ACE9930A2A7CBF70BEBADF199B2 /* Pods_ASLib_Example.framework */,
+				6A579706CD1E02D30C2A7F870E6BE538 /* Pods_ASLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		557C7CF8D4466D636F16673BAB31EEF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86340A99F20BEC0D9E6F18F9080B8720 /* CocoaAsyncSocket.modulemap */,
+				2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */,
+				8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */,
+				75F9206B99E5B5423D6B61D755C011CC /* CocoaAsyncSocket-prefix.pch */,
+				D6D9F3F23E9E53DAFA379995A9E13E58 /* CocoaAsyncSocket-umbrella.h */,
+				8897EF90B2D55946A61AD5A10C38B75C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		58DF0A19370F7EF333503ECAB4AA620E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F839B591063845FF5253B9EBC1FC251 /* ASLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7886FEB8697A7A4D0E7F3DE77D32DFAD /* Pods-ASLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52D9399C3D05A76B12521383E53ACA40 /* Info.plist */,
+				90373D3B90D037148F6390543A70E428 /* Pods-ASLib_Tests.modulemap */,
+				FD6BD3F7EF94DE816EFDF8DC743BE024 /* Pods-ASLib_Tests-acknowledgements.markdown */,
+				187BE61E3A35995F9779FE9D64A8DD1A /* Pods-ASLib_Tests-acknowledgements.plist */,
+				30F380337EE37944C93E8107FD77AAE4 /* Pods-ASLib_Tests-dummy.m */,
+				B2A08896F0F4C7F8E169949817B9937D /* Pods-ASLib_Tests-frameworks.sh */,
+				A72509DE3C7FDFC0CA0C359025A6D92A /* Pods-ASLib_Tests-resources.sh */,
+				78BBAEC8B0EFB637C4DF954194A4757C /* Pods-ASLib_Tests-umbrella.h */,
+				D4421A3C97D9D29740E130BB8BF00D28 /* Pods-ASLib_Tests.debug.xcconfig */,
+				ABA7AA88912F11B1CD9EF13EF98CE1C4 /* Pods-ASLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-ASLib_Tests";
+			path = "Target Support Files/Pods-ASLib_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				58DF0A19370F7EF333503ECAB4AA620E /* Development Pods */,
+				E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */,
+				3750E20CAB4987ACB8AB27B6C25C1D60 /* Pods */,
+				41FF34FCF632056459CD4804DE7E25E2 /* Products */,
+				3FE60B79AB481C6EBAEB1B1293D2F1CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		982AE8715AD34D5D99A50B615809B1F1 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8FFB2F306345702A20E3FE7CE6EF7 /* GCDAsyncSocket.h */,
+				1D696A8CDEBE87CDE80E57AE0E305C5F /* GCDAsyncSocket.m */,
+				84A110336E93C3E786F9B32956E29A3E /* GCDAsyncUdpSocket.h */,
+				098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		B16CCCC916CD9D13BBF53EA0C69C4615 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				982AE8715AD34D5D99A50B615809B1F1 /* GCD */,
+				557C7CF8D4466D636F16673BAB31EEF1 /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		B92181B9DCBC6571952A11A6010697D1 /* ASLib */ = {
+			isa = PBXGroup;
+			children = (
+				0DC30DE3E400DD99E3239B31407975B9 /* Classes */,
+			);
+			path = ASLib;
+			sourceTree = "<group>";
+		};
+		D55CBA63E7A366CB73C500BF064389A8 /* Pods-ASLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E8549B955B11C244813DBE5CA0062FBC /* Info.plist */,
+				8C9D6A7EC1DD331627FEABC2A9188404 /* Pods-ASLib_Example.modulemap */,
+				80E03A6C55CBCA5AD62CEB0F04FE178D /* Pods-ASLib_Example-acknowledgements.markdown */,
+				AEC392C7E8C3DF88B841C7A3F050DFDE /* Pods-ASLib_Example-acknowledgements.plist */,
+				2DED4BB7E88398C7C34B0995EB082FE6 /* Pods-ASLib_Example-dummy.m */,
+				A1CA9F9FB3612306E5F9D1655AC78890 /* Pods-ASLib_Example-frameworks.sh */,
+				54285A2B7A9D38BC16406695406F5058 /* Pods-ASLib_Example-resources.sh */,
+				FF3E50C65666E8A01762A6FF5FFEEA9B /* Pods-ASLib_Example-umbrella.h */,
+				8C1F5A868FEA31A81963FC9ADEC9C2E8 /* Pods-ASLib_Example.debug.xcconfig */,
+				FFFF3CB343D3FF66A1C4F1D19305C5A4 /* Pods-ASLib_Example.release.xcconfig */,
+			);
+			name = "Pods-ASLib_Example";
+			path = "Target Support Files/Pods-ASLib_Example";
+			sourceTree = "<group>";
+		};
+		DFE611DDA781CFAC00F5BFDF466F3841 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4578FFC352D4C1E0A6835D910A54EA8A /* CFNetwork.framework */,
+				E8D496FB53E280030B310506E3777C9A /* Foundation.framework */,
+				AC7790C102DCFE268B7488B0F5234BC0 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */,
+				DFE611DDA781CFAC00F5BFDF466F3841 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BCB37C4DF0BD1C8714778ADA47B20FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4BEBEEFC7123299BD0B4DD094383B1 /* Pods-ASLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B85EEC521D762542B995EB1E652EF2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E06B4251B060D28D9B52BA757CBDCCC /* Pods-ASLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC9CDE9107C1D63E3686B4DF9A8A69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A4D6F572242121C1177305509150AC /* CocoaAsyncSocket-umbrella.h in Headers */,
+				91E03A82D8FFB943F03A67B2A1DA137B /* GCDAsyncSocket.h in Headers */,
+				57A87D95A168033CDDD4583D9A859695 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7987EB280357E9B58178FF7B8E6009 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FB0A761D5219EB003358FC /* test.h in Headers */,
+				68940BA44B8DECB16CD1C3E0443ECD51 /* ASLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06C64E813468ED01603E28C538BA07BE /* Pods-ASLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E57D5CAFCD935E7B29EC00B208FD34 /* Build configuration list for PBXNativeTarget "Pods-ASLib_Tests" */;
+			buildPhases = (
+				08A6C705697B2937795ACBEDF99D718E /* Sources */,
+				B9A8DC58AA62980A50D00950A50C572C /* Frameworks */,
+				6BCB37C4DF0BD1C8714778ADA47B20FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASLib_Tests";
+			productName = "Pods-ASLib_Tests";
+			productReference = 6A579706CD1E02D30C2A7F870E6BE538 /* Pods_ASLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22DC2F3DF172067469E3AB7DD8699CD5 /* ASLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A743AE19E37F93B3FAE2FBE33F115B3A /* Build configuration list for PBXNativeTarget "ASLib" */;
+			buildPhases = (
+				3ECA11F51105A24AFF43A504C95915D5 /* Sources */,
+				E19468AFA03F9914335CDC9FF49E13DD /* Frameworks */,
+				FA7987EB280357E9B58178FF7B8E6009 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				595BFE19883C185EFFADF7515486DF1B /* PBXTargetDependency */,
+			);
+			name = ASLib;
+			productName = ASLib;
+			productReference = 11F00D8C079C6E9C85DE1591A7B2C762 /* ASLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68A3139053112AA98B22778EE257CC3E /* Pods-ASLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9B57CF01A3216F2F85513FC4FEF22D /* Build configuration list for PBXNativeTarget "Pods-ASLib_Example" */;
+			buildPhases = (
+				1F518E3143A9686BA00E09F2F1A800AF /* Sources */,
+				14A1667D1B1C19189032B0E2CDEC464A /* Frameworks */,
+				9B85EEC521D762542B995EB1E652EF2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF42E4A64909805EC5909728DBF6333 /* PBXTargetDependency */,
+				78E4EF55D6CEB082F9B2CB1BF0513590 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASLib_Example";
+			productName = "Pods-ASLib_Example";
+			productReference = 97B03ACE9930A2A7CBF70BEBADF199B2 /* Pods_ASLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE08C8FB83499E6273808C231170542A /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25923EA20BEEFF70869EA847F9D66CF /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				35861C8A1CFEF5FE4A895089A3417F64 /* Sources */,
+				0DEA06E215FF7CC9B0E41489A9C1A0A7 /* Frameworks */,
+				ACDC9CDE9107C1D63E3686B4DF9A8A69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = C02299D899975630D466484A283A282A /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 41FF34FCF632056459CD4804DE7E25E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DC2F3DF172067469E3AB7DD8699CD5 /* ASLib */,
+				BE08C8FB83499E6273808C231170542A /* CocoaAsyncSocket */,
+				68A3139053112AA98B22778EE257CC3E /* Pods-ASLib_Example */,
+				06C64E813468ED01603E28C538BA07BE /* Pods-ASLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A6C705697B2937795ACBEDF99D718E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F236FFC19B904AE3CB6E549D64B37CE /* Pods-ASLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F518E3143A9686BA00E09F2F1A800AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9234D1AE8E06F05F5C0EAC08CB7EA37 /* Pods-ASLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35861C8A1CFEF5FE4A895089A3417F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42872F28323D2C05DD8F0B758A00BDC9 /* CocoaAsyncSocket-dummy.m in Sources */,
+				433EF85441EAE85E49AC9D455F2445AE /* GCDAsyncSocket.m in Sources */,
+				07FF1B68B07C563510813C07A9AFA4FB /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECA11F51105A24AFF43A504C95915D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD11FE4DC5D65F68D21AA29646263906 /* ASLib-dummy.m in Sources */,
+				22FB0A771D5219EB003358FC /* test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		595BFE19883C185EFFADF7515486DF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = BE08C8FB83499E6273808C231170542A /* CocoaAsyncSocket */;
+			targetProxy = 49D0819A42BF636493A00B850045BB54 /* PBXContainerItemProxy */;
+		};
+		78E4EF55D6CEB082F9B2CB1BF0513590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = BE08C8FB83499E6273808C231170542A /* CocoaAsyncSocket */;
+			targetProxy = 170BC621AD28157F4A6F0B30E2F3D83E /* PBXContainerItemProxy */;
+		};
+		FEF42E4A64909805EC5909728DBF6333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASLib;
+			target = 22DC2F3DF172067469E3AB7DD8699CD5 /* ASLib */;
+			targetProxy = ACCC7B7437DB341ACFFED0D447560A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		114553A7A67FA05AB9C90DBA77F9E9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AAE734EC59709399F907E069880E91 /* ASLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASLib/ASLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASLib/ASLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F297A9030AD9BB4E9B3C8CA5C6C49A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BEF7B68C623602554DC3C96405ED28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF436B09B560AF848B4D98C55F61FE0 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E601C650146A580482E3A39B4A5590E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFF3CB343D3FF66A1C4F1D19305C5A4 /* Pods-ASLib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASLib_Example/Pods-ASLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B059624E3DFEB6A8B581557DBD4D50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AAE734EC59709399F907E069880E91 /* ASLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASLib/ASLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASLib/ASLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E587EA740A0EE57C056819CE9131793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1F5A868FEA31A81963FC9ADEC9C2E8 /* Pods-ASLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASLib_Example/Pods-ASLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F4A03525085069DD7C01B3266693673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA7AA88912F11B1CD9EF13EF98CE1C4 /* Pods-ASLib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASLib_Tests/Pods-ASLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C184B8A7682BEDE91F3EDAE579778230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4421A3C97D9D29740E130BB8BF00D28 /* Pods-ASLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASLib_Tests/Pods-ASLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E9B57CF01A3216F2F85513FC4FEF22D /* Build configuration list for PBXNativeTarget "Pods-ASLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E587EA740A0EE57C056819CE9131793 /* Debug */,
+				6E601C650146A580482E3A39B4A5590E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E57D5CAFCD935E7B29EC00B208FD34 /* Build configuration list for PBXNativeTarget "Pods-ASLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C184B8A7682BEDE91F3EDAE579778230 /* Debug */,
+				8F4A03525085069DD7C01B3266693673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A743AE19E37F93B3FAE2FBE33F115B3A /* Build configuration list for PBXNativeTarget "ASLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114553A7A67FA05AB9C90DBA77F9E9D7 /* Debug */,
+				8B059624E3DFEB6A8B581557DBD4D50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25923EA20BEEFF70869EA847F9D66CF /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEF7B68C623602554DC3C96405ED28F /* Debug */,
+				1F297A9030AD9BB4E9B3C8CA5C6C49A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

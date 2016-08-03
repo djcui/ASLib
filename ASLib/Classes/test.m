@@ -7,7 +7,7 @@
 //
 
 #import "test.h"
-
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 @implementation test
 +(void)djconnect{
     GCDAsyncSocket *tem = [GCDAsyncSocket new];

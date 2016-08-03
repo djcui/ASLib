@@ -6,7 +6,8 @@
 //
 //
 
-#import <Foundation/Foundation.h> 
+#import <Foundation/Foundation.h>
+#import "GCDAsyncSocket.h"    
 @interface test : NSObject
 +(void)djconnect;
 @end

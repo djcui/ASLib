@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASLib_Example' do
+  pod 'ASLib', :path => '../'
+
+  target 'ASLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

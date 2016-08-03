@@ -7,7 +7,7 @@
 //
 
 #import "ASViewController.h"
-
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 @interface ASViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"djtest--1");
+    GCDAsyncSocket *tem = [GCDAsyncSocket new];
+    NSLog(@"djtest--2");
+    NSError *err;
+    NSLog(@"djtest--3");
+    [tem connectToHost:@"www.baidu.com" onPort:80 error:&err];
+    NSLog(@"djtest--4");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

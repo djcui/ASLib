@@ -7,7 +7,7 @@
 //
 
 #import "GCDAsyncSocketManager.h"
-
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 @implementation GCDAsyncSocketManager
 + (GCDAsyncSocketManager *)sharedInstance {
     static GCDAsyncSocketManager *instance = nil;

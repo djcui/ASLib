@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 @interface GCDAsyncSocketManager : NSObject
 @property (nonatomic, assign) NSInteger connectStatus;
 @property (nonatomic, strong) GCDAsyncSocket *socket;

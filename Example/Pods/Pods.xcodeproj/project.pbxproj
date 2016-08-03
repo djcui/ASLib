@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		07FF1B68B07C563510813C07A9AFA4FB /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 098765466D421180F3953EF8EEDDCEF1 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0D4BEBEEFC7123299BD0B4DD094383B1 /* Pods-ASLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BBAEC8B0EFB637C4DF954194A4757C /* Pods-ASLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22FB0A761D5219EB003358FC /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB0A741D5219EB003358FC /* test.h */; };
+		22FB0A761D5219EB003358FC /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB0A741D5219EB003358FC /* test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22FB0A771D5219EB003358FC /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB0A751D5219EB003358FC /* test.m */; };
-		22FB0AA91D522128003358FC /* GCDAsyncSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB0AA71D522128003358FC /* GCDAsyncSocketManager.h */; };
+		22FB0AA91D522128003358FC /* GCDAsyncSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FB0AA71D522128003358FC /* GCDAsyncSocketManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22FB0AAA1D522128003358FC /* GCDAsyncSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB0AA81D522128003358FC /* GCDAsyncSocketManager.m */; };
 		2389076819D8C160A5A6DB45CE42C4A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D496FB53E280030B310506E3777C9A /* Foundation.framework */; };
 		42872F28323D2C05DD8F0B758A00BDC9 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E98378F2CF04086E8088C6A14347C33 /* CocoaAsyncSocket-dummy.m */; };
